@@ -38,7 +38,7 @@ if [ ! -e ${OUTDIR}/linux-stable/arch/${ARCH}/boot/Image ]; then
     cd linux-stable
     echo "Checking out version ${KERNEL_VERSION}"
     git checkout ${KERNEL_VERSION}
-    sudo git apply ~/e33a814e772cdc36436c8c188d8c42d019fda639.patch
+    # sudo git apply ~/e33a814e772cdc36436c8c188d8c42d019fda639.patch
     # TODO: Add your kernel build steps here
 
 
